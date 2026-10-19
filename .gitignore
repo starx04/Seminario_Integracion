@@ -1,0 +1,119 @@
+==========================================
+
+PYTHON & UV VENV (Supports nested/subprojects)
+
+==========================================
+
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.py[cod]
+*$py.class
+
+C extensions
+
+*.so
+
+Distribution / packaging
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+Unit test / coverage reports
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+Jupyter Notebook & virtualenvs
+
+.ipynb_checkpoints
+.python-version
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.uv/
+.uv-cache/
+
+FastAPI / General Environment & Logs
+
+.log
+.env
+.env.local
+.env..local
+instance/
+.sqlite3
+*.db
+
+==========================================
+
+NODE.JS, ANGULAR & NESTJS
+
+(Supports nested subprojects & monorepos)
+
+==========================================
+
+Dependencies
+
+node_modules/
+/node_modules/
+
+Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+Angular build output & cache
+
+/dist/
+/dist/
+.angular/
+/ .angular/
+tmp/
+out-tsc/
+
+NestJS build output & cache
+
+/dist/
+/dist/
+.tsbuildinfo
+/ .tsbuildinfo
+
+IDE / Editor configurations
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
