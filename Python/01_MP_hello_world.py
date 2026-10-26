@@ -1,0 +1,11 @@
+print("Hello, World!")
+print("¡Bienvenido a Móvil Center!")
+print("Vendemos equipos móviles para todos.")
+print("Estoy repasando Python en Seminario de Integración.")
+
+print("Qué podemos imprimir")
+print("Imprimiendo desde Python")
+print(39)
+print(3.1416)
+print(True)
+print(45 + 7)
