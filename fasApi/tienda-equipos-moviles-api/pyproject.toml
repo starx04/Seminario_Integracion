@@ -1,0 +1,16 @@
+[project]
+name = "tienda-equipos-moviles"
+version = "0.1.0"
+description = "API para gestionar el catálogo de una tienda de equipos móviles"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.162.2",
+]
+
+[project.scripts]
+tienda-equipos-moviles-api = "tienda_equipos_moviles:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
